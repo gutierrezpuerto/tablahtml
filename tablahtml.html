@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de clases</title>
+    <style>
+        table {
+            width: 100%;
+            
+        }
+        table, th,td {
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding:5px;
+            text-align: center;
+
+        }
+        td:hover {
+            background-color: #f3e0a6;
+        }
+        .materia{
+            font-weight: bold;
+            display: block;
+            font-size: medium;
+        }
+        .profe{
+            font-style: italic;
+            font-size: small;
+            display: block;
+        }
+        .hr{
+            min-width: 30px;
+            min-height: 40px;
+            background-color: white;
+        }
+        .libre{
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            background-color: rgb(186, 183, 183)
+        }
+        .vespe{
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            background-color:rgb(185, 225, 225);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6">2025 - TECNICATURA EN ANALISIS DE SISTEMAS</th>
+            <th>1°B</th>
+        </tr>
+        <tr>
+            <th>Hora</th>
+            <th class="columna">LUNES</th>
+            <th class="columna">MARTES</th>
+            <th class="columna">MIERCOLES</th>
+            <th class="columna">JUEVES</th>
+            <th class="columna">VIERNES</th>
+            <td class="vespe" rowspan="7">VESPERTINO</td>
+            
+        </tr>
+        <tr class="fila">
+            <th class="hr"> 1° 17:40 a 18:30 </th>
+            <td><span class=materia>ALGEBRA </span><span class=profe>Romero Gabriel Sup. MARTINEZ Miguel</span></td>
+            <td><span class=materia>CIENCIA, TECNOLOGIA Y SOCIEDAD </span><span class=profe>Prof. ADAN Claudio</span></td>
+            <td><span class=materia>ALGORITMOS Y ESTRUCTURAS DE DATOS I </span><span class=profe>Prof. ROLDAN Graciana</span></td>
+            <td><span class=materia>SISTEMAS Y ORGANIZACIONES </span><span class=profe>Prof. DE ANDREIS Alejandro</span></td>
+            <td><span class=materia>PRACTICAS PROFESIONALIZANTES I </span><span class=profe>Prof. GIAIMO Paula</span></td>
+            
+        </tr>
+        <tr class="fila"> 
+            <th class="hr"> 2° 18:30 a 19:20 </th>
+            <td><span class=materia>ALGEBRA </span><span class=profe>Romero Gabriel Sup. MARTINEZ Miguel</span></td>
+            <td><span class=materia>CIENCIA, TECNOLOGIA Y SOCIEDAD </span><span class=profe>Prof. ADAN Claudio</span></td>
+            <td><span class=materia>ALGORITMOS Y ESTRUCTURAS DE DATOS I </span><span class=profe>Prof. ROLDAN Graciana</span></td>
+            <td><span class=materia>SISTEMAS Y ORGANIZACIONES</span> <span class=profe>Prof. DE ANDREIS Alejandro</span></td>
+            <td><span class=materia>ANALISIS MATEMATICO I </span><span class=profe>Prof. PUGLIESE Gabriela</span></td>
+        </tr>
+        <tr class="fila">
+            <th class="hr">3° 19:25 a 20:15 </th>
+            <td><span class=materia>INGLES I </span><span class=profe>Prof. PEREZ Alejandra</span></td>
+            <td><span class=materia>PRACTICAS PROFESIONALIZANTES I </span><span class=profe>Sup. OLGUIN Fernandez, GALO</span></td>
+            <td><span class=materia>ALGORITMOS Y ESTRUCTURAS DE DATOS I</span><span class=profe> Prof. ROLDAN Graciana</span></td>
+            <td><span class=materia>ARQUITECTURA DE COMPUTADORES </span><span class=profe>Prof. ROLDAN Graciana</span></td>
+            <td><span class=materia>ANALISIS MATEMATICO I </span><span class=profe>Prof. PUGLIESE Gabriela</span></td>
+        </tr>
+        <tr class="fila">
+            <th class="hr">4° 20:15 a 21:05</th>
+            <td><span class=materia>INGLES I </span><span class=profe>Prof. PEREZ Alejandra</span></td>
+            <td><span class=materia>PRACTICAS PROFESIONALIZANTES I </span><span class=profe>Sup. OLGUIN Fernandez, GALO</span></td>
+            <td><span class=materia>ALGORITMOS Y ESTRUCTURAS DE DATOS I </span><span class=profe>Prof. ROLDAN Graciana</span></td>
+            <td><span class=materia>ARQUITECTURA DE COMPUTADORES </span><span class=profe>Prof. ROLDAN Graciana</span></td>
+            <td class="libre">LIBRE</td>
+        </tr>
+        <tr class="fila">
+            <th class="hr"> 5° 21:10 a 22:00</th>
+            <td class="libre">LIBRE</td>
+            <td class="libre">LIBRE</td>
+            <td>PRACTICAS PROFESIONALIZANTES I Prof. GIAIMO Paula</span></td>
+            <td class="libre">LIBRE</td>
+            <td class="libre">LIBRE</td>
+
+        </tr>
+
+        
+    </table>
+ 
+    
+</body>
+</html>
